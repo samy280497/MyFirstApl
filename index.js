@@ -1,6 +1,6 @@
-const Alexa = require('ask-sdk-core');
-const i18n = require('i18next');
-const launchDocument = require('./documents/launchDocument.json');
+//Dependencies
+
+// THANKS JOE from Amazon youve been a great evangelist for APL tutorial on youtube!!
 
 // core functionality for fact skill
 const GetNewFactHandler = {
@@ -32,8 +32,8 @@ if (Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)['Alexa.Presentati
             end: "Healthy Habits"
         },
         "assets": {
-        "image":"https://lh3.googleusercontent.com/W0sjTAAERO8IZCl2li9W6qd0JVrUaVQqKW-szbLdnRteTa2WEiemydOXeSpIHldvE0I7j-2dcDKfAXUcAAYwPnDRI7I=s960",
-        "backgroundURL": "https://github.com/alexa/skill-sample-nodejs-first-apl-skill/blob/master/modules/assets/lights_1920x1080.png?raw=true"
+        "image":"blockedFORSecurity",
+        "backgroundURL": "blockedForSecurity"
     }
     }
 });
@@ -183,7 +183,7 @@ const enData = {
     STOP_MESSAGE: 'Goodbye! Please rate and review. And come back soon.',
     FACTS:
       [
-         '<audio src="https://dl3.pushbulletusercontent.com/Mx84rjLBCn81Aspl3WD3sX9lHjN4edwi/new_main_tota.mp3" />',
+         '<audio src="blockedForSecurity" />',
       ],
   },
 };
